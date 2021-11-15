@@ -1,0 +1,106 @@
+/* Index */
+#entete, #menu, #contenu, #footer {
+    padding:1px 0;
+    }
+
+#entete {
+    background-color:#2f435e;
+    text-align:center;
+    color:  #ececec;
+}
+
+#main {
+    margin:auto;
+}
+
+#menu  {
+    float:left;
+    width:240px;
+    background-color: grey;
+}
+
+#contenu {
+    margin-left:255px;
+    background-color:white;
+}
+
+#contenu h1{
+    border-bottom: #2f435e solid 2px;
+    width: fit-content;
+
+}
+
+#footer {
+    background-color:#669933;
+    text-align:center;
+    clear:both;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.li_first{
+    border-top: white solid 2px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 30px;
+    border-bottom: white solid 2px;
+}
+
+a{
+    text-decoration:none; 
+    color: #2f435e;
+}
+
+ol li {
+    padding: 15px;
+}
+
+#ico1{
+	list-style-image: url('img/logo-adresse.png');
+}
+
+#ico2{
+	list-style-image: url('img/phone-logo.png');
+}
+
+#ico3{
+	list-style-image: url('img/logo\ mail.jpg');
+}
+
+.li:hover a,.li:hover{
+    background-color: #2f435e;
+    color: #ececec;
+}
+
+
+/* test
+.coord_li{
+    background-color: #2f435e;
+}
+
+*/
+
+/* Cursus scolaire */
+
+table,td{
+    border: solid black 2px;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+/*.tabl{
+    margin-left: 50%;
+    margin-right: 50%;
+    background-color: pink;
+}
+*/
+
+table{
+    margin-left: 10%;
+    margin-top: 100px;
+}
