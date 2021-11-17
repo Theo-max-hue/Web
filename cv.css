@@ -1,6 +1,7 @@
 /* Index */
 #entete, #menu, #contenu, #footer {
     padding:1px 0;
+    width: 100%;
     }
 
 #entete {
@@ -93,6 +94,10 @@ table,td{
     padding: 20px;
 }
 
+table caption{
+    caption-side: bottom;
+}
+
 /*.tabl{
     margin-left: 50%;
     margin-right: 50%;
@@ -103,4 +108,14 @@ table,td{
 table{
     margin-left: 10%;
     margin-top: 100px;
+}
+
+.retour{
+    position:fixed;
+    bottom: 30px;
+    right:30px;
+    border:5px solid red;
+    padding:10px;
+    text-decoration: none;
+    color:#FF0000;
 }
