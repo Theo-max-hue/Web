@@ -1,7 +1,18 @@
-/* Index */
+/* Index/All */
+
+.identity{
+	margin: auto;
+	height: 150px;
+	border-radius: 500px;
+	border: 5px solid grey;
+}
+
+body{
+    font-family: serif;
+}
+
 #entete, #menu, #contenu, #footer {
     padding:1px 0;
-    width: 100%;
     }
 
 #entete {
@@ -62,22 +73,21 @@ ol li {
 }
 
 #ico1{
-	list-style-image: url('img/logo-adresse.png');
+	list-style-image: url('Images/logo-adresse.png');
 }
 
 #ico2{
-	list-style-image: url('img/phone-logo.png');
+	list-style-image: url('Images/phone-logo.png');
 }
 
 #ico3{
-	list-style-image: url('img/logo\ mail.jpg');
+	list-style-image: url('Images/logo\ mail.jpg');
 }
 
 .li:hover a,.li:hover{
     background-color: #2f435e;
     color: #ececec;
 }
-
 
 /* test
 .coord_li{
@@ -112,10 +122,74 @@ table{
 
 .retour{
     position:fixed;
-    bottom: 30px;
     right:30px;
-    border:5px solid red;
+    top: 100px;
+    border:5px solid #2f435e;
     padding:10px;
     text-decoration: none;
-    color:#FF0000;
+    background-color: grey;
+    color:white;
+}
+
+.retour:hover{
+    color: #2f435e;
+    background-color: white;
+}
+
+/* Compétences */
+
+.compet{
+    list-style-type:square;
+    margin-left: 35%;
+}
+
+section h2{
+    margin-left: 40%;
+    text-decoration: underline #2f435e;
+}
+
+section p{
+    margin-left: 35%;
+}
+
+/* Réalisations */
+
+#Sud{
+    list-style-image: url("Images/sudoku(1).png");
+    margin-left: 70px;
+    padding: 5px;
+}
+
+#Pac{
+    list-style-image: url("Images/pacman(1).png");
+    margin-left: 70px;
+    padding: 5px;
+}
+
+#Cal{
+    list-style-image: url("Images/calculatrice(1).jpg");
+    margin-left: 70px;
+    padding: 5px;
+}
+
+.CV{
+    height: 300px;
+}
+
+/* Centres d'intérêt */
+
+#fig1{
+    height: 100px;
+}
+
+#fig2{
+    height: 100px;
+}
+
+#fig3{
+    height: 100px;
+}
+
+#interest{
+    display: inline-block;
 }

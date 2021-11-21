@@ -16,7 +16,7 @@
 
 #menu  {
     float:left;
-    width:240px;
+    width: 240px;
     background-color: grey;
 }
 
@@ -112,3 +112,6 @@ table{
 body{
     margin: 0;
 }
+
+
+/* faire le retour à l'index dans le footer sans cadre */
