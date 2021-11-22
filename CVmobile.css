@@ -1,13 +1,30 @@
-/* Index */
+/* Index/All */
+
+.identity{
+	margin: auto;
+	height: 150px;
+	border-radius: 500px;
+	border: 5px solid grey;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("Raleway-Regular.ttf");
+}
+
+body{
+    font-family: "Raleway";
+    margin: 0;
+}
+
 #entete, #menu, #contenu, #footer {
     padding:1px 0;
-    margin: 0;
     }
 
 #entete {
     background-color:#2f435e;
     text-align:center;
-    color:  #ececec;
+    color:  black;
 }
 
 #main {
@@ -16,8 +33,8 @@
 
 #menu  {
     float:left;
-    width: 240px;
-    background-color: grey;
+    width:240px;
+    background-color: #2f435e;
 }
 
 #contenu {
@@ -37,53 +54,55 @@
     clear:both;
 }
 
+.cv:hover{
+    color: white;
+}
+
+.cv:visited{
+    color: white;
+}
+
 ul{
     margin: 0;
     padding: 0;
 }
 
 .li_first{
-    border-top: white solid 2px;
+    border-top: black solid 2px;
 }
 
 nav ul li {
     list-style-type: none;
     padding: 30px;
-    border-bottom: white solid 2px;
+    border-bottom: black solid 2px;
 }
 
 a{
     text-decoration:none; 
-    color: #2f435e;
+    color: white;
 }
 
 ol li {
-    padding: 15px;
+    padding: 5px;
 }
 
 #ico1{
-	list-style-image: url('img/logo-adresse.png');
+	list-style-image: url('Images/logo-adresse.png');
 }
 
 #ico2{
-	list-style-image: url('img/phone-logo.png');
+	list-style-image: url('Images/phone-logo.png');
 }
 
 #ico3{
-	list-style-image: url('img/logo\ mail.jpg');
+	list-style-image: url('Images/logo\ mail.jpg');
 }
 
 .li:hover a,.li:hover{
-    background-color: #2f435e;
-    color: #ececec;
+    background-color: grey;
+    color: #2f435e;
+    font-weight: bold;
 }
-
-/* test
-.coord_li{
-    background-color: #2f435e;
-}
-
-*/
 
 /* Cursus scolaire */
 
@@ -95,23 +114,133 @@ table,td{
 
 table caption{
     caption-side: bottom;
+    color: #2f435e;
+    font-weight: bold;
 }
 
-/*.tabl{
-    margin-left: 50%;
-    margin-right: 50%;
-    background-color: pink;
+#cursus{
+    background-color: grey;
+    color: white;
+    font-weight: bolder;
 }
-*/
 
 table{
-    margin-left: 10%;
-    margin-top: 100px;
+    margin: 10px 0 0 10px;
 }
 
-body{
-    margin: 0;
+.retour{
+    color: black;
 }
 
+.retour:hover{
+    color: white;
+}
 
-/* faire le retour à l'index dans le footer sans cadre */
+/* Compétences */
+
+.compet{
+    list-style-type:square;
+}
+
+section h2{
+    text-decoration: underline #2f435e;
+}
+
+.colonne{
+    columns: 3;
+    column-gap: 20px;
+    column-rule: 3px dashed #2f435e;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+/* Réalisations */
+
+#Sud, #Pac, #Cal {
+    margin: 10px 0 0 70px;
+    padding: 5px;
+}
+
+#Sud{
+    list-style-image: url("Images/sudoku(1).png");
+}
+
+#Pac{
+    list-style-image: url("Images/pacman(1).png");
+}
+
+#Cal{
+    list-style-image: url("Images/calculatrice(1).jpg");
+}
+
+.CV{
+    height: 100px;
+}
+
+#CV{
+    margin: 30px 0 0 30px;
+    list-style-type: none;
+}
+
+/* Centres d'intérêt */
+
+#fig1{
+    height: 100px;
+    border: grey solid 4px;
+    margin:20px;
+    transform: scale(-100%,-100%);
+}
+
+#fig2{
+    height: 100px;
+    width: 100px;
+    border-radius: 400px;
+    border:#2f435e solid 4px;
+    margin:20px;
+    transform: rotate(185deg);
+}
+
+#fig3{
+    height: 100px;
+    border:#669933 solid 4px;
+    margin:20px;
+    transform: skew(15deg,0deg);
+}
+
+#interest figcaption{
+    caption-side: bottom;
+}
+
+#interest{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.jeuxvid{
+    background-image: linear-gradient(to right bottom,white,red);
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.music{
+    background-image: linear-gradient(to right bottom,yellow,green);
+}
+
+.sport{
+    font-weight: normal;
+    font-style: oblique;
+    margin: 20px;
+}
+
+/* Expériences professionnelles */
+
+.exp{
+    background-color: rgba(47,67,94,0.8);
+    color: white;
+}
+
+.stage::before{
+    content:url("Images/forêt.jpg");
+    height: 50px;
+}

@@ -48,6 +48,10 @@ body{
     clear:both;
 }
 
+.cv:hover{
+    color: white;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -89,13 +93,6 @@ ol li {
     color: #ececec;
 }
 
-/* test
-.coord_li{
-    background-color: #2f435e;
-}
-
-*/
-
 /* Cursus scolaire */
 
 table,td{
@@ -106,14 +103,15 @@ table,td{
 
 table caption{
     caption-side: bottom;
+    color: #2f435e;
+    font-weight: bold;
 }
 
-/*.tabl{
-    margin-left: 50%;
-    margin-right: 50%;
-    background-color: pink;
+#cursus{
+    background-color: grey;
+    color: white;
+    font-weight: bolder;
 }
-*/
 
 table{
     margin-left: 10%;
@@ -180,16 +178,31 @@ section p{
 
 #fig1{
     height: 100px;
+    border: grey solid 4px;
+    margin:20px;
 }
 
 #fig2{
     height: 100px;
+    border-radius: 400px;
+    border:#2f435e solid 4px;
+    margin:20px;
 }
 
 #fig3{
     height: 100px;
+    border:#669933 solid 4px;
+    margin:20px;
 }
 
 #interest{
     display: inline-block;
+    margin: 30px;
+}
+
+/* Expériences professionnelles */
+
+.exp{
+    background-color: rgba(47,67,94,0.8);
+    color: white;
 }
