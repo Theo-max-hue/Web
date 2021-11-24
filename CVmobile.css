@@ -136,6 +136,14 @@ table{
     color: white;
 }
 
+.etudes{
+    color: black;
+}
+
+.etudes:hover{
+    color: #2f435e;
+}
+
 /* Compétences */
 
 .compet{
@@ -184,53 +192,29 @@ section h2{
 
 /* Centres d'intérêt */
 
+
 #fig1{
     height: 100px;
     border: grey solid 4px;
     margin:20px;
-    transform: scale(-100%,-100%);
 }
 
 #fig2{
     height: 100px;
-    width: 100px;
     border-radius: 400px;
     border:#2f435e solid 4px;
     margin:20px;
-    transform: rotate(185deg);
 }
 
 #fig3{
     height: 100px;
     border:#669933 solid 4px;
     margin:20px;
-    transform: skew(15deg,0deg);
-}
-
-#interest figcaption{
-    caption-side: bottom;
 }
 
 #interest{
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
     margin: 30px;
-}
-
-.jeuxvid{
-    background-image: linear-gradient(to right bottom,white,red);
-    padding: 5px;
-    margin-left: 20px;
-}
-
-.music{
-    background-image: linear-gradient(to right bottom,yellow,green);
-}
-
-.sport{
-    font-weight: normal;
-    font-style: oblique;
-    margin: 20px;
 }
 
 /* Expériences professionnelles */
@@ -243,4 +227,8 @@ section h2{
 .stage::before{
     content:url("Images/forêt.jpg");
     height: 50px;
+}
+
+.tablexp{
+    overflow: auto;
 }
